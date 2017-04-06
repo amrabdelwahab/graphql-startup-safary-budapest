@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :product_images
   resources :products
   resources :shops
   if Rails.env.development?
