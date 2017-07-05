@@ -1,3 +1,4 @@
+require 'types/shop_type'
 Queries::ShopsQuery = GraphQL::Field.define do
   name 'Shops'
   description 'Return all available shops'
